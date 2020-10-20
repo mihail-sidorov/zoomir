@@ -17,6 +17,14 @@ body {
     margin: 0 auto;
 }
 
+.title {
+
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
 @import 'components/header';
 @import 'components/main-block';
 @import 'components/btn';
+@import 'components/akcii';

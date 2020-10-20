@@ -1,0 +1,93 @@
+.akcii {
+
+    margin-left: auto;
+    margin-top: 100px;
+
+    &__title {
+
+        text-align: center;
+        padding-left: calc(50% - 600px);
+        margin-bottom: 20px;
+    }
+
+    &__items {
+
+        overflow: hidden;
+        padding-left: calc(50% - 600px);
+        padding-top: 30px;
+
+        &-wrapper {
+
+            display: inline-flex;
+        }
+    }
+
+    &__item {
+
+        display: block;
+        width: 500px;
+        background-color: #fff;
+        border: 1px solid #C2000D;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 34px rgba(255, 255, 255, 0.25);
+        border-radius: 10px;
+        padding: 40px;
+        display: flex;
+        color: #363636;
+        text-decoration: none;
+        position: relative;
+        margin-right: 60px;
+
+        &:last-child {
+
+            margin-right: 0;
+        }
+
+        &-procent {
+
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: -30px;
+            left: -30px;
+            background-image: url('../resources/imgs/akcii-item-skidka1.svg');
+            background-repeat: no-repeat;
+            background-size: 100px 100px;
+            background-position: 0 0;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            font-size: 30px;
+            color: #C2000D;
+        }
+
+        &-image {
+
+            margin-right: 40px;
+        }
+
+        &-text {
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-title {
+
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        &-more {
+
+            margin-top: auto;
+            text-decoration: underline;
+
+            &:hover {
+
+                text-decoration: none;
+            }
+        }
+    }
+}
