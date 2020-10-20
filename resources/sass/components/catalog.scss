@@ -1,0 +1,53 @@
+.catalog {
+
+    margin-top: 150px;
+
+    &__desc {
+
+        font-size: 18px;
+        margin-top: 10px;
+        max-width: 470px;
+    }
+
+    &__items {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+
+        display: block;
+        width: 550px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 30px;
+        text-decoration: none;
+        margin-top: 80px;
+        position: relative;
+
+        &-title {
+
+            color: #363636;
+            font-weight: bold;
+            font-size: 30px;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: calc(100% - 20px);
+            left: 0;
+        }
+
+        &-image {
+
+            text-align: center;
+
+            img {
+
+                width: 100%;
+                max-width: 380px;
+            }
+        }
+    }
+}
