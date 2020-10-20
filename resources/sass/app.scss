@@ -1,3 +1,8 @@
+html {
+
+    font-size: 16px;
+}
+
 body {
 
     background-color: #F5EEE6;
@@ -6,4 +11,12 @@ body {
     color: #363636;
 }
 
+.section {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 @import 'components/header';
+@import 'components/main-block';
+@import 'components/btn';
