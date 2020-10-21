@@ -9,15 +9,48 @@
     padding-top: 150px;
     padding-bottom: 120px;
     max-height: 296px;
-
-    margin-top: 150px;
+    padding-left: 20px;
+    margin-top: 100px;
 
     &__title {
+
+        position: relative;
+        display: inline-block;
 
         span {
 
             font-size: 30px;
             color: #C2000D;
+        }
+
+        &::before {
+
+            content: '';
+            display: block;
+            position: absolute;
+            width: 140px;
+            height: 190px;
+            top: -15px;
+            left: -120px;
+            background-image: url('../resources/imgs/delivery-vector.svg');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 140px auto;
+        }
+
+        &::after {
+
+            content: '';
+            display: block;
+            position: absolute;
+            width: 380px;
+            height: 370px;
+            top: -90px;
+            right: -180px;
+            background-image: url('../resources/imgs/delivery-round-text.svg');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 380px auto;
         }
     }
 

@@ -14,7 +14,7 @@
 
         overflow: hidden;
         padding-left: calc(50% - 600px);
-        padding-top: 30px;
+        padding-top: 60px;
 
         &-wrapper {
 
@@ -60,6 +60,29 @@
             font-weight: bold;
             font-size: 30px;
             color: #C2000D;
+
+            &::before {
+
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 60px;
+                top: -25px;
+                left: -10px;
+                background-image: url('../resources/imgs/akcii-item-skidka-text.svg');
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                background-size: auto 60px;
+            }
+        }
+
+        &:nth-child(even) {
+
+            .akcii__item-procent {
+
+                background-image: url('../resources/imgs/akcii-item-skidka2.svg');
+            }
         }
 
         &-image {
