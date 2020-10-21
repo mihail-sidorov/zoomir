@@ -1,0 +1,34 @@
+.delivery {
+
+    max-width: calc(50% + 600px);
+    margin-left: auto;
+    background-image: url('../resources/imgs/delivery-background.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 100%;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    max-height: 296px;
+
+    margin-top: 150px;
+
+    &__title {
+
+        span {
+
+            font-size: 30px;
+            color: #C2000D;
+        }
+    }
+
+    &__desc {
+
+        font-size: 18px;
+        margin: 30px 0;
+    }
+
+    &__more {
+
+        text-transform: uppercase;
+    }
+}
