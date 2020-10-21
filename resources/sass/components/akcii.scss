@@ -80,9 +80,14 @@
             text-transform: uppercase;
         }
 
+        &-desc {
+
+            flex-grow: 1;
+        }
+
         &-more {
 
-            margin-top: auto;
+            margin-top: 20px;
             text-decoration: underline;
 
             &:hover {
