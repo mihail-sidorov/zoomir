@@ -1,0 +1,60 @@
+.skidki {
+
+    margin-top: 150px;
+
+    &__title {
+
+        display: inline-block;
+        text-align: right;
+        margin-bottom: 30px;
+
+        span {
+
+            color: #C2000D;
+        }
+    }
+
+    &__items {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+
+        display: flex;
+        align-items: center;
+
+        &-procent {
+
+            font-weight: bold;
+            font-size: 30px;
+            color: #C2000D;
+            width: 140px;
+            height: 140px;
+            line-height: 140px;
+            text-align: center;
+            background-image: url('../resources/imgs/akcii-item-skidka1.svg');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 140px 140px;
+            margin-right: 15px;
+        }
+
+        &-text {
+
+            &-title {
+
+                font-weight: bold;
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+
+            &-desc {
+
+                font-size: 18px;
+            }
+        }
+    }
+}

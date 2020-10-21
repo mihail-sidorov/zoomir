@@ -17,7 +17,7 @@ mix.js('resources/js/app.js', 'js')
       processCssUrls: false,
    })
    .browserSync({
-      proxy: '192.168.2.26',
+      proxy: '192.10.0.193',
       files: [
          'css/{*,**/*}.css',
          'js/{*,**/*}.js',
