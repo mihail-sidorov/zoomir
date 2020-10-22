@@ -18,6 +18,23 @@
         font-size: 150px;
         color: #C2000D;
         text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+
+        &::before {
+
+            content: '';
+            display: block;
+            position: absolute;
+            width: 365px;
+            height: 385px;
+            top: -150px;
+            right: -120px;
+            background-image: url('../resources/imgs/main-block-round-text.svg');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: auto 100%;
+        }
     }
 
     &__desc {
