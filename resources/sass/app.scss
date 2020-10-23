@@ -34,3 +34,8 @@ body {
 @import 'components/delivery';
 @import 'components/instagramm';
 @import 'components/footer';
+
+.akcii, .catalog, .skidki, .delivery, .instagramm, .footer {
+
+    display: none;
+}
