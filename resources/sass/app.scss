@@ -11,6 +11,11 @@ body {
     color: #363636;
 }
 
+html.mobile-menu_open, body.mobile-menu_open {
+
+    overflow: hidden;
+}
+
 .section {
 
     max-width: 1200px;
@@ -74,3 +79,4 @@ body {
 @import 'components/delivery';
 @import 'components/instagramm';
 @import 'components/footer';
+@import 'components/mobile-menu';
