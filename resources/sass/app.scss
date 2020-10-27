@@ -30,6 +30,14 @@ html.mobile-menu_open, body.mobile-menu_open {
     text-transform: uppercase;
 }
 
+.page-title {
+
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width:670px) {
 
     .title {
@@ -80,3 +88,4 @@ html.mobile-menu_open, body.mobile-menu_open {
 @import 'components/instagramm';
 @import 'components/footer';
 @import 'components/mobile-menu';
+@import 'components/catalog-page';
