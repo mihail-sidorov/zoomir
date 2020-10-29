@@ -348,3 +348,347 @@
         }
     }
 }
+
+@media screen and (max-width:780px) {
+
+    .delivery-page {
+
+        margin-top: 50px;
+
+        &__title {
+
+            &::before {
+
+                background-image: url('../resources/imgs/delivery-page-title-mobile-vector.svg');
+                left: 0;
+            }
+        }
+
+        &__inform {
+
+            margin-top: 30px;
+
+            &-hours {
+
+                flex-wrap: wrap;
+
+                &-left {
+
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+
+            &-phones {
+
+                flex-wrap: wrap;
+                margin-top: 100px;
+            }
+
+            &-phone {
+
+                &:nth-child(2) {
+
+                    margin-top: 130px;
+                    text-align: right;
+                    padding-right: 0;
+                    padding-left: 150px;
+
+                    &::before {
+
+                        background-image: url('../resources/imgs/delivery-page-belorechensk-round2.svg');
+                        background-size: auto 250px;
+                        background-position: -25px -35px;
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+
+        &__zones {
+
+            margin-top: 80px;
+
+            &-title-wrapper {
+
+                text-align: left;
+            }
+
+            &-title {
+
+                margin-bottom: 30px;
+            }
+
+            &-item {
+
+                flex-wrap: wrap;
+
+                &-image {
+
+                    margin-right: 0 !important;
+                    margin-left: 0 !important;
+                    order: 2 !important;
+                    text-align: left !important;
+
+                    span {
+
+                        max-width: none;
+                    }
+                }
+
+                &-text {
+
+                    margin-bottom: 10px;
+
+                    order: 1 !important;
+
+                    &-row {
+
+                        flex-wrap: wrap;
+                        margin-bottom: 20px;
+                    }
+
+                    &-col1 {
+
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        &__payment {
+
+            margin-top: 50px;
+
+            &-title {
+
+                &::before {
+
+                    display: none;
+                }
+            }
+
+            &-desc {
+
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                &-left {
+
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+
+            &-action {
+
+                max-width: none;
+                margin-left: 50px;
+                margin-right: 0;
+                margin-top: 250px;
+
+                &::before {
+
+                    width: calc(100% + 50px);
+                    height: 211px;
+                    top: -270px;
+                    right: 0;
+                    background-position: -10px 0;
+                    background-size: calc(100% + 40px) auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:670px) {
+
+    .delivery-page {
+
+        &__payment {
+
+            &-action {
+
+                margin-top: 230px;
+
+                &::before {
+
+                    top: -250px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .delivery-page {
+
+        &__title {
+
+            &::before {
+
+                background-size: auto 230px;
+                background-position-y: -40px;
+            }
+        }
+
+        &__payment {
+
+            &-action {
+
+                margin-top: 200px;
+
+                &::before {
+
+                    top: -220px;
+                    background-size: calc(100% + 30px) auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .delivery-page {
+
+        &__title {
+
+            &::before {
+
+                background-size: auto 200px;
+                background-position-y: -30px;
+            }
+        }
+
+        &__payment {
+
+            &-action {
+
+                margin-top: 180px;
+
+                &::before {
+
+                    top: -200px;
+                    background-position: -5px 0;
+                    background-size: calc(100% + 20px) auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .delivery-page {
+
+        &__title {
+
+            &::before {
+
+                background-size: auto 180px;
+                background-position-y: -20px;
+            }
+        }
+
+        &__inform {
+
+            &-phones {
+
+                margin-top: 70px;
+            }
+
+            &-phone {
+
+                &::before {
+
+                    width: 130px;
+                    height: 130px;
+                    top: -40px;
+                }
+
+                span {
+
+                    font-size: 25px;
+                }
+
+                &:nth-child(1) {
+
+                    padding-right: 100px;
+
+                    &::before {
+
+                        background-size: auto 130px;
+                        background-position: 0 0;
+                    }
+                }
+
+                &:nth-child(2) {
+
+                    margin-top: 80px;
+                    padding-left: 100px;
+
+                    &::before {
+
+                        background-size: auto 190px;
+                        background-position: -20px -28px;
+                    }
+                }
+            }
+        }
+
+        &__payment {
+
+            &-action {
+
+                margin-top: 180px;
+
+                &::before {
+
+                    top: -180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    .delivery-page {
+
+        &__title {
+
+            &::before {
+
+                background-size: auto 160px;
+                background-position-y: -10px;
+            }
+        }
+
+        &__inform {
+
+            &-phone {
+
+                span {
+
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &__payment {
+
+            &-action {
+
+                margin-top: 160px;
+
+                &::before {
+
+                    top: -160px;
+                }
+            }
+        }
+    }
+}
