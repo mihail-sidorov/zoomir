@@ -27,6 +27,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        font-size: 18px;
 
         &-nums {
 
@@ -83,6 +84,19 @@
 
             max-width: 500px;
             padding-left: 8%;
+
+            p {
+
+                &:first-child {
+
+                    margin-top: 0;
+                }
+
+                &:last-child {
+
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -90,6 +104,8 @@
 @media screen and (max-width:780px) {
 
     .company-page {
+
+        margin-top: 50px;
     
         &__title {
     
@@ -100,6 +116,38 @@
                 background-image: url('../resources/imgs/company-page-title-mobile-vector.svg');
                 background-position: 15px -80px;
                 background-size: auto 380px;
+            }
+        }
+
+        &__inform {
+
+            &-nums {
+
+                width: 100%;
+                order: 2;
+
+                &-item {
+
+                    margin-bottom: 15px;
+                }
+            }
+
+            &-image {
+
+                width: 100%;
+                order: 1;
+            }
+
+            &-text-wrapper {
+
+                width: 100%;
+                order: 3;
+                margin-top: 50px;
+            }
+
+            &-text {
+
+                padding-left: 0;
             }
         }
     }
